@@ -1,0 +1,22 @@
+Will change these exact files:
+
+globals.css
+page.tsx
+Changed files
+
+globals.css
+page.tsx
+What you should see after the change
+
+Hero content fades in with a calm stagger: meta → H1 → body → CTAs → image.
+CTAs lift subtly on hover/focus; the primary CTA shows a small arrow nudge.
+Hero image settles in smoothly with slight scale + blur reduction (no bounce).
+How to verify quickly
+
+Run npm run dev.
+Open / and refresh — watch the staggered entrance order.
+Hover/focus the “View Products” button — it should lift slightly and the arrow should shift right.
+Notes
+
+No routes, data shapes, or content were changed.
+Only homepage hero motion was touched.
